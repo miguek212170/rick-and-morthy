@@ -32,7 +32,7 @@ function App() {
           <h2>Cargando...</h2>
           :
           <div className='app'>
-            <h1>hola</h1>
+            <h1>RICK AND MORTY</h1>
             <form className='app__formulario' onSubmit={handleSubmit}>
               <input className='app__input' type="text" ref={textInput} />
               <button className='app__boton' >Buscar</button>
