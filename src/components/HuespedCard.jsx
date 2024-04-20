@@ -5,12 +5,8 @@ import "./styles/huespedCard.css"
 const HuespedCard = ({ url }) => {
     //console.log(url)
     const [residente, obtenerResidente] = useFetch();
-    useEffect(() => {
-
-
-        return () => {
-            obtenerResidente(url)
-        }
+    useEffect(() => {  
+            obtenerResidente(url)       
     }, [])
     console.log(residente)
     return (
